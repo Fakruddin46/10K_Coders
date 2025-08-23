@@ -1,0 +1,59 @@
+🔹 Key Features of Java
+
+Simple
+
+Easy to learn, especially if you know C/C++.
+
+No complex concepts like pointers or multiple inheritance (handled with interfaces).
+
+Object-Oriented
+
+Everything in Java is based on objects and classes.
+
+Principles: Encapsulation, Inheritance, Polymorphism, Abstraction.
+
+Platform Independent (WORA – Write Once, Run Anywhere)
+
+Java code is compiled into bytecode which runs on the JVM (Java Virtual Machine).
+
+Works on any platform (Windows, Linux, Mac, etc.) without modification.
+
+Secure
+
+No explicit pointers → less memory corruption.
+
+JVM provides sandboxing and runtime security checks.
+
+Supports features like bytecode verification and access modifiers.
+
+Robust
+
+Strong memory management (automatic garbage collection).
+
+Exception handling helps in writing error-free programs.
+
+Multithreaded
+
+Built-in support for multithreading.
+
+Allows concurrent execution of tasks for better CPU utilization.
+
+Distributed
+
+Java provides APIs like RMI (Remote Method Invocation) and CORBA to build distributed applications.
+
+High Performance (compared to other interpreted languages)
+
+Uses JIT (Just-In-Time) compiler, which compiles bytecode to native machine code at runtime.
+
+Dynamic
+
+Supports dynamic loading of classes.
+
+Can adapt to evolving environments.
+
+Portable
+
+Bytecode can run on any system that has a JVM.
+
+No platform-specific implementations.
