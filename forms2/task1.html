@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1 Form</title>
+    <body>
+        <table border="1">
+            <tr>
+                <th colspan="2">Fill The Form Below</th>
+            </tr>
+            <form action="">
+                <tr>
+                    <td><label for="first-name">First Name:</label></td>
+                    <td><input type="text" id="first-name" name="first-name" required></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" id="password" name="password" pattern="^[A-Z][a-zA-Z~!@#$%^&*()_+|?><:;'{}`\-=\[\]\\;,./]{7,}$" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="feedback">Feedback:</label>
+                    </td>
+                    <td>
+                        <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Gender</label>
+                    </td>
+                    <td>
+                        <label for="">Male</label>
+                        <input type="radio" name="gender">
+                        <label for="">Female</label>
+                        <input type="radio" name="gender">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Subjects</label></td>
+                    <td>
+                        <label for="">Maths</label>
+                        <input type="checkbox" name="subjects" value="maths">
+                        <label for="">Science</label>
+                        <input type="checkbox" name="subjects" value="science">
+                        <label for="">English</label>
+                        <input type="checkbox" name="subjects" value="english">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit">Submit</button></td>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>
